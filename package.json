@@ -1,0 +1,30 @@
+{
+  "name": "play-with-nextjs-redirect",
+  "version": "1.0.0",
+  "description": "Try Next.js's Redirect &amp; Rewrite feature.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subuta/play-with-nextjs-redirect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subuta/play-with-nextjs-redirect/issues"
+  },
+  "homepage": "https://github.com/subuta/play-with-nextjs-redirect#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "next": "^11.0.1",
+    "path-to-regexp": "^6.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
