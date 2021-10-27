@@ -20,13 +20,15 @@ class Router {
   match(pathname) {
     let route, query;
 
-    _.some(this.routes, (_route) => {
+    const matched = _.some(this.routes, (_route) => {
       const matched = _route.match(pathname);
       if (!matched) return;
       route = _route;
       query = matched.params;
       return true;
     });
+
+    if (!matched) return;
 
     return {
       query,
