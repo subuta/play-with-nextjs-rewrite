@@ -1,6 +1,8 @@
 # play-with-nextjs-redirect
 Try Next.js's Redirect &amp; Rewrite feature.
 
+After digging Next.js documentation, looks they provides us path-parameter in `context.query` field. this workaround aren't needed.
+
 ## How to develop
 
 ```bash
